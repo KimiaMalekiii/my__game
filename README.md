@@ -42,7 +42,7 @@ A web-based game built with Vite and Node.js, running inside Docker.
   2. اجرای کانتینر:
     
      docker run -p 5173:5173 my_game
-پس از اجرای کانتینر، بازی از طریق آدرس زیر در دسترس است:
-     
+    
+     3. اجرای سایت از طریق لینک زیر قابل مشاهده است:
  Local:   http://localhost:5173/
  Network: http://172.17.0.2:5173/
