@@ -35,14 +35,15 @@ A web-based game built with Vite and Node.js, running inside Docker.
 
 - پروژه دارای یک Dockerfile است که محیط اجرای Node را آماده می‌کند و Dev Server پروژه را اجرا می‌کند.
 - مراحل استفاده از Docker:
- ساخت ایمیج:
+
+  -ساخت ایمیج:
     
      docker build -t my_game .
      
-   اجرای کانتینر:
+-اجرای کانتینر:
     
      docker run -p 5173:5173 my_game
     
-   اجرای سایت از طریق لینک زیر قابل مشاهده است:
+-اجرای سایت از طریق لینک زیر قابل مشاهده است:
  Local:   http://localhost:5173/
  Network: http://172.17.0.2:5173/
